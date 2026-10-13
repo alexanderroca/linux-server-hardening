@@ -209,3 +209,11 @@ sudo bash 01-ssh/install.sh
 ```Bash
 ssh -p 2222 vagrant@<VM_IP> -i .vagrant/machines/default/libvirt/private_key
 ```
+
+4. Execute the automated Test Suite (test.sh):
+
+   Certify programmatically that the active configuration matches security requirements:
+
+```Bash
+sudo bash test.sh
+```
