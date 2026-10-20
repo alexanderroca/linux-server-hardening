@@ -3,9 +3,9 @@ Default: yes
 Priority: 0
 Auth-Type: Primary
 Auth:
-    [default=die]                   pam_faillock.so authfail
+[default=die]			pam_faillock.so authfail
 Auth-Initial:
-    required                        pam_faillock.so preauth
+required			pam_faillock.so preauth
 Account-Type: Primary
 Account:
-    required                        pam_faillock.so
+required			pam_faillock.so
