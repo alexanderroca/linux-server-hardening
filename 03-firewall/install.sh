@@ -21,7 +21,7 @@ mkdir -p /etc/nftables.d
 echo "[*] Deploying SSH modular rule..."
 cat << 'EOF' > /etc/nftables.d/ssh.nft
 # Allow SSH
-tcp dport 22 accept
+tcp dport 2222 accept
 EOF
 chmod 644 /etc/nftables.d/ssh.nft
 
